@@ -1,0 +1,27 @@
+div{
+    width:45%;
+    border: 2px solid blueviolet;
+    float: left;
+    padding: 25px;
+    margin: 5px;
+}
+
+#stanga{
+    background-color: darkblue;
+}
+
+#dreapta{
+    background-color: red;
+}
+
+.p1{
+   color: white;
+}
+
+.p2{
+ color: chartreuse;
+}
+
+#idp5{
+    color: green;
+}
