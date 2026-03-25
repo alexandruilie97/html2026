@@ -25,3 +25,16 @@ div{
 #idp5{
     color: green;
 }
+
+#bootom{
+    width: 100%;
+}
+
+#bootom> p{
+    color: red;
+}
+
+#bootom article+p{
+    color: blue;
+}
+
