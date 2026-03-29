@@ -1,0 +1,25 @@
+main{
+    margin: 0;
+    border: 10px ridge violet;
+    background-image: url(../images/echipaveche.jpg);
+}
+
+section{
+   width: 23%;
+   margin: 5px;
+   display: inline-block;
+   border: 2px solid blueviolet;
+   vertical-align: top;
+   padding: 5px;
+   color: rgb(255, 255, 255);
+   font-style: italic;
+   min-height: 1250px;
+   
+  
+   
+}
+
+main section h2{
+    text-align: center ;
+    color: whitesmoke;
+}

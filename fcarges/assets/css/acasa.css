@@ -1,0 +1,16 @@
+main{
+    margin: 0;
+    background-color: rgb(161, 92, 225);
+    border: 12px ridge violet;
+}
+
+main section{
+    padding: 5px;
+
+}
+
+main section p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: aliceblue;
+}

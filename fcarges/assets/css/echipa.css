@@ -1,0 +1,27 @@
+main{
+    width: auto;
+    margin: 0;
+    border: 12px ridge violet;
+    margin: auto;
+    background-image: url(../images/images.jpg);
+   
+    
+}
+table{
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+   
+
+}
+
+table,th, td{
+    border: 2px solid violet;
+}
+tr:nth-child(2n){
+    background-color: aliceblue;
+}
+
+tr:nth-child(2n+1){
+    background-color: rgb(106, 21, 186);
+}

@@ -1,0 +1,55 @@
+nav#sidebar{
+    width: 360px;
+    background-color: blueviolet;
+    height: 750px;
+    margin: 0;
+    
+}
+
+nav#sidebar ul li{
+    border: none;
+    margin: 0;
+    padding: 10px 0px;
+    
+
+}
+
+nav#sidebar ul{
+    margin:0
+    
+    
+}
+nav#sidebar ul li:hover{
+    background-color: blueviolet;
+}
+
+body{
+    margin: 0;
+}
+
+nav#sidebar ul li img{
+    align-items: center;
+}
+
+#sidebar {
+  clear: both; /* ignore float-urile anterioare */
+}
+
+main{
+    display: flex;
+}
+
+#despre{
+    border: 2px solid black;
+    padding: 5px;
+    background-color: aquamarine;
+
+}
+
+#despre p:nth-child(2n){
+    color: darkviolet;
+}
+#despre p:nth-child(2n+1){
+    color: white;
+}
+
