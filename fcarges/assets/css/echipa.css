@@ -5,7 +5,6 @@ main{
     margin: auto;
     background-image: url(../images/images.jpg);
    
-    
 }
 table{
     max-width: 800px;
@@ -15,13 +14,15 @@ table{
 
 }
 
-table,th, td{
+th, td{
     border: 2px solid violet;
+    border-radius: 20px;
 }
 tr:nth-child(2n){
     background-color: aliceblue;
+    color: blueviolet;
 }
 
 tr:nth-child(2n+1){
-    background-color: rgb(106, 21, 186);
+    background-color: blueviolet;
 }
