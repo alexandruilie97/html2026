@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formular de comanda</h1>
+    <form action="" method="post">
+    <fieldset>
+        <legend>Card</legend>
+        <div>
+        <label for="card">Introduceti date card</label>
+        <input type="text" id="card" placeholder="xxxx xxxx xxxx xxxx" minlength="16" maxlength="16" required>
+        </div>
+        <div>
+        <label for="dataexpirare">Data expirare</label>
+        <input type="date" name="dataexpirare" id="dataexpirare" required>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Livrare</legend>
+        <div>
+            <label for="nume">Nume</label>
+            <input type="text" name="nume" id="nume" required minlength="3">
+        </div>
+        <div>
+            <label for="prenume">Prenume</label>
+            <input type="text" name="prenume" id="prenume" required minlength="3">
+        </div>
+        <div>
+            <label for="adresa">Adresa</label>
+            <input type="text" name="adresa" id="adresa" required>
+        </div>
+        <div>
+            <label for="email">Adresa de email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="telefon">Telefon</label>
+            <input type="tel" name="telefon" id="telefon" minlength="10" maxlength="10" placeholder="0712345678">
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Adauga produsele</legend>
+        <div>
+            <label for="masina">Masina</label>
+           <select name="masina" id="masina">
+           <option value="0">Selecteaza masina</option>
+           <option value="volvo">Volvo</option>
+           <option value="bmw">BMW</option>
+           <option value="duster">Duster</option>
+           <option value="audi">Audi</option>
+           </select>
+        </div>
+        <div>
+            <label for="mesaj">Mesaj</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        </fieldset>
+        <div>
+            <button type="submit">Trimite Datele</button>
+        </div>
+    
+    </form>
+</body>
+</html>
