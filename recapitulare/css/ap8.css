@@ -1,0 +1,47 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    width: 100%;
+}
+
+.full{
+    width: 100%;
+    height: 400px;
+    background-image: url(https://placehold.co/1600x400);
+    margin-bottom: 20px;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.full p{
+    position: relative;
+    top: 50%;
+    left: 30%;
+
+}
+
+.col2{
+    width: 96%;
+    margin: auto;
+    border: 2px solid red;
+    padding: 20px;
+    clear: both;
+    display: flex;
+}
+
+.col2 > main{
+    width: 60%;
+    float: left;
+    padding: 10px;
+    margin: 0 5px;
+    border: 2px solid yellow;
+}
+
+.col2 > aside{
+    width: 30%;
+    float: left;
+    padding: 0;
+    margin: 0;
+    border: 2px solid green;
+   
+}
